@@ -643,3 +643,17 @@
             text-align: left;
         }
     }
+    
+    .dark-mode .aboutt-section {
+        color: #373F51;
+        min-height: 150%;
+        padding: 150px 0px;
+        text-align: center;
+    }
+    
+    .aboutt-section {
+        color: #373F51;
+        min-height: 150%;
+        padding: 150px 0px;
+        text-align: center;
+    }
