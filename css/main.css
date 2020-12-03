@@ -669,12 +669,6 @@
         text-align: center;
     }
     
-    .demo {
-        padding: 20px 20px;
-        color: white;
-        background-color: #58A4B0;
-    }
-    
     @media screen and (-webkit-device-pixel-ratio) {
         .about-section,
         .aboutsecond-section,
@@ -719,6 +713,8 @@
         position: relative;
         right: 200px;
         z-index: 1;
+        height: auto;
+        max-width: 650px;
     }
     
     .transparent:hover {
@@ -727,3 +723,33 @@
         transform-style: preserve-3d;
     }
     /* tooltip*/
+    
+    #demo {
+        background-color: #58A4B0;
+        color: #ddd;
+        padding: 0px 10px;
+        border-radius: 25px;
+    }
+    
+    #demo:hover {
+        background: #58A4B0;
+        color: #ddd;
+        padding: 10px 15px;
+        border-radius: 25px;
+        box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .dark-mode #demo {
+        background: #A9BCD0;
+        color: #ddd;
+        padding: 0px 10px;
+        border-radius: 25px;
+    }
+    
+    .dark-mode #demo:hover {
+        background: #A9BCD0;
+        color: #ddd;
+        padding: 10px 15px;
+        border-radius: 25px;
+        box-shadow: 0px 10px 10px 5px rgba(225, 225, 225, 0.397);
+    }
