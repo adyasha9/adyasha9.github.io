@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
             $("#myInput").on("keyup", function() {
@@ -23,8 +28,6 @@
             });
         });
     </script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
@@ -219,62 +222,67 @@
 
 </head>
 
-<body>
+<bod>
     <div class="containn">
         <section id="home" class="introo-section">
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="container">
                 <div class="topnav" id="myTopnav">
-                    <img src="image/logo-white.png" class="logo" height="50px" width="50px" href="landing.html" />
-                    <a class="navbar-right " href="index.html">Products</a>
-                    <a class="navbar-right " href="contact.html">Contact</a>
-                    <a href="landing.html#about">About Us</a>
-                    <a href="landing.html">Home</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
+                    <img src="image/logo-white.png " class="logo" height="50px " width="50px " href="landing.html " />
+                    <a class="navbar-right " href="index.html ">Products</a>
+                    <a class="navbar-right " href="contact.html ">Contact</a>
+                    <a href="landing.html#about ">About Us</a>
+                    <a href="landing.html ">Home</a>
+                    <a href="javascript:void(0); " class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars" style="float:right; position: relative;"></i>
                     </a>
                 </div>
             </div>
         </section>
 
-        <header class="header">
-            <div class="container">
-                <h2>Our Products</h2>
+        <header class="header ">
+            <div class="container ">
+                <h2 style="font-size:70px; font-weight:600;">Our Products</h2>
             </div>
             <label class="switch">
               <input type="checkbox" checked>
-              <span class="slider round" onclick="myFunction()"></span>
+              <span class="slider round" onclick="myFunction1()"></span>
             </label>
-            <div id="google_translate_element"></div>
+            <div id="google_translate_element "></div>
         </header>
         <div id="myDIV">
-            <div class="container mb-5 scroll-animation">
-                <input id="myInput" type="text" placeholder="Search..">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="row">
+            <div class="container mb-5 scroll-animation ">
+                <input id="myInput" type="text" placeholder="Search.. ">
+                <div class="row ">
+                    <div class="col-md-8 ">
+                        <div class="row ">
                             <div class="col-md-6">
-                                <div class="card mb-4 scroll-animation" data-id="02">
-                                    <img class="product-img" src="image/2.png" alt="anakinra">
-                                    <div class="card-body text-center">
-                                        <h4 class="item-title">Anakinra</h4>
-                                        <div class="card-text">
-                                            <p>Will this drug make you a sky walker? Well, if you have rheumatoid arthritis, it may help. And did the people who named this drug (brand name Kineret) have a fondness for Star Wars? It appears to be a coincidence.</p>
+                                <div class="card mb-4 scroll-animation " data-id="02 ">
+                                    <img class="product-img" src="image/2.png" alt="anakinra" height="600px" width="200px">
+                                    <div class="card-body text-center ">
+                                        <h4 class="item-title ">Anakinra</h4>
+                                        <div class="card-text ">
+
+                                            <!-- <p>Will this drug make you a sky walker? Well, if you have rheumatoid arthritis, it may help. And did the people who named this drug (brand name Kineret) have a fondness for Star Wars? </p> -->
                                         </div>
-                                        <div class="details-wrapper">
-                                            <div class="items counter-wrapper">
-                                                <button class="items__control" data-action="minus">-</button>
-                                                <div class="items__current" data-counter>1</div>
-                                                <button class="items__control" data-action="plus">+</button>
+                                        <div class="details-wrapper ">
+                                            <div class="items counter-wrapper ">
+                                                <button class="items__control " data-action="minus ">-</button>
+                                                <div class="items__current " data-counter>1</div>
+                                                <button class="items__control " data-action="plus ">+</button>
                                             </div>
 
-                                            <div class="price">
-                                                <div class="price__weight">440g</div>
-                                                <div class="price__currency">550</div>
+                                            <div class="price ">
+                                                <div class="price__weight ">440g</div>
+                                                RS
+                                                <div class="price__currency ">550</div>
                                             </div>
                                         </div>
 
-                                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Add to cart</button>
+                                        <button data-cart type="button" class="btn btn-block">
+                                         <img src="image/shopping.png" height="20px" width="20px">
+                                      </button>
 
                                     </div>
                                 </div>
@@ -282,12 +290,42 @@
 
 
                             <div class="col-md-6">
-                                <div class="card mb-4 scroll-animation" data-id="04">
-                                    <img class="product-img" src="image/4.png" alt="domperidone">
-                                    <div class="card-body text-center">
-                                        <h4 class="item-title">Domperidone</h4>
-                                        <div class="card-text">
-                                            <p>If your stomach is not moving food through quickly and you're experiencing nausea, would you want a glass of Dom Pérignon? Hmm. How about a tablet of domperidone?</p>
+                                <div class="card mb-4 scroll-animation " data-id="04 ">
+                                    <img class="product-img " src="image/4.png " alt="domperidone ">
+                                    <div class="card-body text-center ">
+                                        <h4 class="item-title ">Domperidone</h4>
+                                        <div class="card-text ">
+                                            <!-- <p>If your stomach is not moving food through quickly and you're experiencing nausea, would you want a glass of Dom Pérignon? Hmm. How about a tablet of domperidone?</p> -->
+                                        </div>
+
+                                        <div class="details-wrapper ">
+                                            <div class="items counter-wrapper ">
+                                                <button class="items__control " data-action="minus ">-</button>
+                                                <div class="items__current " data-counter>1</div>
+                                                <button class="items__control " data-action="plus ">+</button>
+                                            </div>
+
+                                            <div class="price ">
+                                                <div class="price__weight ">450g</div>
+                                                RS
+                                                <div class="price__currency ">500</div>
+                                            </div>
+                                        </div>
+
+                                        <button data-cart type="button" class="btn btn-block">
+                                         <img src="image/shopping.png" height="20px" width="20px">
+                                      </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card mb-4 " data-id="05 ">
+                                    <img class="product-img " src="image/5.png " alt="medicine ">
+                                    <div class="card-body text-center ">
+                                        <h4 class="item-title ">Idebenone</h4>
+                                        <div class="card-text ">
+                                            <!-- <p>Does this look like it should be said like "I 'd be none"? Actually, it's said like "eye-deb-a-known." It 's a new drug that has been tried for treating Alzheimer's.</p> -->
                                         </div>
 
                                         <div class="details-wrapper">
@@ -299,38 +337,14 @@
 
                                             <div class="price">
                                                 <div class="price__weight">450g</div>
+                                                RS
                                                 <div class="price__currency">500</div>
                                             </div>
                                         </div>
 
-                                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Add to cart</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="card mb-4" data-id="05">
-                                    <img class="product-img" src="image/5.png" alt="medicine">
-                                    <div class="card-body text-center">
-                                        <h4 class="item-title">Idebenone</h4>
-                                        <div class="card-text">
-                                            <p>Does this look like it should be said like "I'd be none"? Actually, it's said like "eye-deb-a-known." It's a new drug that has been tried for treating Alzheimer's disease and some other neurological disorders.</p>
-                                        </div>
-
-                                        <div class="details-wrapper">
-                                            <div class="items counter-wrapper">
-                                                <button class="items__control" data-action="minus">-</button>
-                                                <div class="items__current" data-counter>1</div>
-                                                <button class="items__control" data-action="plus">+</button>
-                                            </div>
-
-                                            <div class="price">
-                                                <div class="price__weight">450g</div>
-                                                <div class="price__currency">500</div>
-                                            </div>
-                                        </div>
-
-                                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Add to cart</button>
+                                        <button data-cart type="button" class="btn btn-block">
+                                         <img src="image/shopping.png" height="20px" width="20px">
+                                      </button>
 
                                     </div>
                                 </div>
@@ -341,7 +355,7 @@
                                     <div class="card-body text-center">
                                         <h4 class="item-title">Moxifloxacin</h4>
                                         <div class="card-text">
-                                            <p>Two x's? This sounds like the name of a pop or rock group before world war 3, but it's actually an antibiotic that you can buy under the brand name Avelox.</p>
+                                            <!-- <p>Two x's? This sounds like the name of a pop or rock group before world war 3, but it's actually an antibiotic that you can buy under the brand name Avelox.</p> -->
                                         </div>
 
                                         <div class="details-wrapper">
@@ -353,12 +367,14 @@
 
                                             <div class="price">
                                                 <div class="price__weight">450g</div>
+                                                RS
                                                 <div class="price__currency">500</div>
                                             </div>
                                         </div>
 
-                                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Add to cart</button>
-
+                                        <button data-cart type="button" class="btn btn-block">
+                                         <img src="image/shopping.png" height="20px" width="20px">
+                                      </button>
                                     </div>
                                 </div>
                             </div>
@@ -368,7 +384,7 @@
                                     <div class="card-body text-center">
                                         <h4 class="item-title">Pancuronium</h4>
                                         <div class="card-text">
-                                            <p>Does this sound like a name for a cure-all? Well, it depends on what you mean by cure, I suppose… It's a very potent muscle relaxant. That makes it useful for some surprising things.</p>
+                                            <!-- <p>Does this sound like a name for a cure-all? Well, it depends on what you mean by cure, I suppose… It's a very potent muscle relaxant. That makes it useful for some surprising things.</p> -->
                                         </div>
 
                                         <div class="details-wrapper">
@@ -380,11 +396,14 @@
 
                                             <div class="price">
                                                 <div class="price__weight">450g</div>
+                                                RS
                                                 <div class="price__currency">500</div>
                                             </div>
                                         </div>
 
-                                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Add to cart</button>
+                                        <button data-cart type="button" class="btn btn-block">
+                                         <img src="image/shopping.png" height="20px" width="20px">
+                                      </button>
 
                                     </div>
                                 </div>
@@ -395,7 +414,7 @@
                                     <div class="card-body text-center">
                                         <h4 class="item-title">Phensuximide</h4>
                                         <div class="card-text">
-                                            <p>Here we have a drug name with sux right in the middle of it. But if you think that sucks, seizures are even worse, and that's what this drug treats.</p>
+                                            <!-- <p>Here we have a drug name with sux right in the middle of it. But if you think that sucks, seizures are even worse, and that's what this drug treats.</p> -->
                                         </div>
 
                                         <div class="details-wrapper">
@@ -407,11 +426,13 @@
 
                                             <div class="price">
                                                 <div class="price__weight">450g</div>
+                                                RS
                                                 <div class="price__currency">500</div>
                                             </div>
                                         </div>
-
-                                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Add to cart</button>
+                                        <button data-cart type="button" class="btn btn-block">
+                                         <img src="image/shopping.png" height="20px" width="20px">
+                                      </button>
 
                                     </div>
                                 </div>
@@ -422,8 +443,8 @@
                                     <div class="card-body text-center">
                                         <h4 class="item-title">Vinblastine</h4>
                                         <div class="card-text">
-                                            <p>Does this drug blast away at something, maybe like some guy named Vinnie? Hmm, how about if Vinnie was with his girlfriend Christine? You see, vinblastine and the related drug vincristine are used to blast away
-                                                at cancers </p>
+                                            <!-- <p>Does this drug blast away at something, maybe like some guy named Vinnie? Hmm, how about if Vinnie was with his girlfriend Christine? You see, vinblastine and the related drug vincristine are used to blast away -->
+                                            <!-- at cancers </p> -->
                                         </div>
 
                                         <div class="details-wrapper">
@@ -435,11 +456,14 @@
 
                                             <div class="price">
                                                 <div class="price__weight">450g</div>
+                                                RS
                                                 <div class="price__currency">500</div>
                                             </div>
                                         </div>
 
-                                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Add to cart</button>
+                                        <button data-cart type="button" class="btn btn-block">
+                                         <img src="image/shopping.png" height="20px" width="20px">
+                                      </button>
 
                                     </div>
                                 </div>
@@ -450,7 +474,7 @@
                                     <div class="card-body text-center">
                                         <h4 class="item-title">Warfarin</h4>
                                         <div class="card-text">
-                                            <p>Speaking of things that sound like warfare… This is actually one of the grand old drugs on the market. It's an anticoagulant drug, good for breaking up blood clots.</p>
+                                            <!-- <p>Speaking of things that sound like warfare… This is actually one of the grand old drugs on the market. It's an anticoagulant drug, good for breaking up blood clots.</p> -->
                                         </div>
 
 
@@ -463,12 +487,14 @@
 
                                             <div class="price">
                                                 <div class="price__weight">450g</div>
-
+                                                RS
                                                 <div class="price__currency">500</div>
                                             </div>
                                         </div>
 
-                                        <button data-cart type="button" class="btn btn-block btn-outline-warning">Add to cart</button>
+                                        <button data-cart type="button" class="btn btn-block">
+                                         <img src="image/shopping.png" height="20px" width="20px">
+                                      </button>
 
                                     </div>
                                 </div>
@@ -480,7 +506,7 @@
                                     <div class="card-body text-center">
                                         <h4 class="item-title">Xylometazoline</h4>
                                         <div class="card-text">
-                                            <p>If you can't get your mouth around this, how about sticking it up your nose? I wouldn't be surprised if you already have: It's the active ingredient in Otrivin and some other decongestant nasal sprays.</p>
+                                            <!-- <p>If you can't get your mouth around this, how about sticking it up your nose? I wouldn't be surprised if you already have: It's the active ingredient in Otrivin and some other decongestant nasal sprays.</p> -->
                                         </div>
 
                                         <div class="details-wrapper">
@@ -492,61 +518,92 @@
 
                                             <div class="price">
                                                 <div class="price__weight">530g</div>
+                                                RS
                                                 <div class="price__currency">520</div>
                                             </div>
 
                                         </div>
 
-                                        <button data-cart type="button" class="btn btn-block btn-outline-warning">
-									                                  Add to cart
-							                               	</button>
+                                        <button data-cart type="button" class="btn btn-block">
+                                         <img src="image/shopping.png" height="20px" width="20px">
+                                      </button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card mb-4" data-id="11">
+                                    <img class="product-img" src="image/12.png" alt="Adderall">
+                                    <div class="card-body text-center">
+                                        <h4 class="item-title">Cisplatin</h4>
+                                        <div class="card-text">
+                                            <!-- <p>If you can't get your mouth around this, how about sticking it up your nose? I wouldn't be surprised if you already have: It's the active ingredient in Otrivin and some other decongestant nasal sprays.</p> -->
+                                        </div>
+
+                                        <div class="details-wrapper">
+                                            <div class="items counter-wrapper">
+                                                <button class="items__control" data-action="minus">-</button>
+                                                <div class="items__current" data-counter>1</div>
+                                                <button class="items__control" data-action="plus">+</button>
+                                            </div>
+
+                                            <div class="price">
+                                                <div class="price__weight">530g</div>
+                                                RS
+                                                <div class="price__currency">520</div>
+                                            </div>
+
+                                        </div>
+
+                                        <button data-cart type="button" class="btn btn-block">
+                                       <img src="image/shopping.png" height="20px" width="20px">
+                                    </button>
 
                                     </div>
                                 </div>
                             </div>
 
 
+
+
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 scroll-animation">
+                    <div class="col-md-4" id="card">
+                        <div class="card mb-4 scroll-animation"><br>
                             <div class="card-body">
                                 <h5 class="card-title">Cart</h5>
                                 <div data-cart-empty class="alert alert-secondary" role="alert">
                                     empty cart
                                 </div>
-                                <!-- cart-wrapper -->
                                 <div class="cart-wrapper">
-
                                 </div>
-                                <!-- // cart-wrapper -->
-
-
                                 <div class="cart-total none">
                                     <p><span class="h5">Shipping Charge:</span> <span class="delivery-cost free">300</span> </p>
                                     <p><span class="h5">Total:</span> <span class="total-price">330</span> <span class="rupees">Rs</span></p>
                                 </div>
-
-
                             </div>
-
-
                             <div id="order-form" class="card-body border-top none">
-                                <form>
+                                <form id="order">
                                     <h5 class="card-title">Patient's Name</h5>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="" id="txtTitle">
+                                        <input type="text" class="form-control" placeholder="" id="patient">
                                     </div>
                                     <h5 class="card-title">Doctor's Name</h5>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="" id="txtDescription">
+                                        <input type="text" class="form-control" placeholder="" id="doctor">
                                     </div>
-                                    <button type="submit" class="btnn" id="">Submit</button>
+
+                                    <button type="submit" class="btnn" onclick="myFunction2()">Get Reciept</button>
+
                                 </form>
                             </div>
                         </div>
-
+                        <div id="demo">
+                        </div>
                     </div>
+
+
                 </div>
 
             </div>
@@ -596,8 +653,9 @@
     </div>
     <script src="./js/counter.js "></script>
     <script src="./js/cart.js "></script>
+
     <script>
-        function myFunction() {
+        function myFunction1() {
             var element = document.body;
             element.classList.toggle("dark-mode");
         }
@@ -618,6 +676,15 @@
             });
         });
     </script>
-</body>
+    <script>
+        function myFunction2() {
+            event.preventDefault();
+            var x = document.getElementById("card").innerText;
+            document.getElementById("demo").innerText = "Reciept " +
+                x;
+        }
+    </script>
+    </body>
+
 
 </html>

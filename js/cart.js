@@ -1,4 +1,5 @@
 const cartWrapper = document.querySelector(".cart-wrapper");
+const recieptWrapper = document.querySelector(".reciept-wrapper");
 // add product to cart
 window.addEventListener("click", function(event) {
     if (event.target.hasAttribute("data-cart")) {
