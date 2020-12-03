@@ -28,7 +28,7 @@
     p {
         word-spacing: 0.4em;
         font-family: 'Poppins', sans-serif;
-        font-weight: 800;
+        font-weight: 600;
     }
     
     ul {
@@ -666,7 +666,7 @@
         color: #373F51;
         min-height: 150%;
         padding: 150px 0px;
-        text-align: center;
+        text-align: left;
     }
     
     @media screen and (-webkit-device-pixel-ratio) {

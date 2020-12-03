@@ -222,7 +222,7 @@
 
 </head>
 
-<bod>
+<body>
     <div class="containn">
         <section id="home" class="introo-section">
 
@@ -570,7 +570,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-4 " id="card ">
+                    <div class="col-md-4 " id="card">
                         <div class="card mb-4 scroll-animation "><br>
                             <div class="card-body ">
                                 <h5 class="card-title ">Cart</h5>
@@ -584,23 +584,24 @@
                                     <p><span class="h5 ">Total:</span> <span class="total-price ">330</span> <span class="rupees ">Rs</span></p>
                                 </div>
                             </div>
-                            <div id="order-form " class="card-body border-top none ">
+                            <div id="order-form" class="card-body border-top none">
                                 <form id="order ">
-                                    <h5 class="card-title ">Patient's Name</h5>
-                                    <div class="form-group ">
-                                        <input type="text " class="form-control " placeholder=" " id="patient ">
+                                    <h5 class="card-title">Patient's Name</h5>
+                                    <div class="form-group">
+                                        <input type="text " class="form-control " placeholder=" " id="patient">
                                     </div>
-                                    <h5 class="card-title ">Doctor's Name</h5>
-                                    <div class="form-group ">
-                                        <input type="text " class="form-control " placeholder=" " id="doctor ">
+                                    <h5 class="card-title">Doctor's Name</h5>
+                                    <div class="form-group">
+                                        <input type="text " class="form-control" placeholder=" " id="doctor">
                                     </div>
 
-                                    <button type="submit " class="btnn " onclick="myFunction2() ">Get Reciept</button>
+                                    <button type="submit" class="btnn" onclick="myFunction69()">Get Reciept</button>
 
                                 </form>
                             </div>
                         </div>
-                        <div id="demo ">
+
+                        <div id="demo">
                         </div>
                     </div>
 
@@ -609,8 +610,8 @@
 
             </div>
         </div>
-        <section class=" footer-section " id="footer ">
-            <div class="container ">
+        <section class=" footer-section" id="footer">
+            <div class="container">
                 <div class="row ">
                     <div class="col-md-4 ">
                         <img src="image/logo-white.png " height="100px " width="100px ">
@@ -652,6 +653,7 @@
             </div>
         </section>
     </div>
+
     <script src="./js/counter.js "></script>
     <script src="./js/cart.js "></script>
 
@@ -678,14 +680,13 @@
         });
     </script>
     <script>
-        function myFunction2() {
+        function myFunction69() {
             event.preventDefault();
-            var x = document.getElementById("card ").innerText;
-            document.getElementById("demo ").innerText = "Reciept " +
+            var x = document.getElementById("card").innerText;
+            document.getElementById("demo").innerText = "Reciept" +
                 x;
         }
     </script>
-    </body>
-
+</body>
 
 </html>
